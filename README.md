@@ -1,6 +1,4 @@
-<p align="center">
-  <img width="200" src="https://open-wc.org/hero.png"></img>
-</p>
+## bulma-lit element web app example project
 
 ## Contém a versão 0.94 da Bulma css encapsulada para uso no componente.
 
