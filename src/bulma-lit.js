@@ -1,19 +1,19 @@
-import { LitElement, html, css } from 'lit';
-import { bulma } from './bulma-encapsulated';
+import { LitElement, html } from 'lit'
+import { bulma } from './bulma-encapsulated'
 
 class BulmaLit extends LitElement {
-  static styles = [bulma];
-  
+  static styles = [bulma]
+
   static properties = {
     title: { type: String }
   }
 
-  constructor() {
-    super();
+  constructor () {
+    super()
     this.title = 'Hello, World!'
   }
 
-  render() {
+  render () {
     return html`
       <section class="section">
         <div class="container has-text-centered">
@@ -22,7 +22,7 @@ class BulmaLit extends LitElement {
           </h1>
           <p class="subtitle is-family-primary">
             My first web app component lit element styled with
-            <strong class="has-text-success">Bulma</strong>!
+            <strong class="has-text-white">Bulma</strong>!
           </p>
           <div class="columns">
             <div class="column">
@@ -40,8 +40,8 @@ class BulmaLit extends LitElement {
           </div>
         </div>
       </section>      
-      `;
+      `
   }
 }
 
-customElements.define('bulma-lit', BulmaLit);
+customElements.define('bulma-lit', BulmaLit)
