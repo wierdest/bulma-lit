@@ -13,8 +13,13 @@ npx sass bulma-0.9.4/bulma.sass src/bulma.css
 - sobre bulma: https://bulma.io/documentation/
 - a versão no github: https://github.com/jgthms/bulma/tree/0.9.4
 - sobre sass: https://sass-lang.com/documentation/cli/dart-sass/
+- sobre estilização com lit: https://lit.dev/docs/v2/components/styles/ 
 
-## Construído a partir de um starter app da open-wc, gerado com as instruções abaixo: 
+## Conformidade ao standardJS, linting com eslint
+
+## 100% de cobertura de testes e acessibilidade.
+
+## Construído a partir de um starter app da open-wc, gerado a partir as instruções abaixo: 
 
 ## Open-wc Starter App
 
